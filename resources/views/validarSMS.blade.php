@@ -332,7 +332,7 @@
       @csrf
         <p>Validar Codigo</p>
         <input type="hidden" name="id" value="{{ $id }}">
-        <input type="hidden" name="request_id" value="{{ $request_id }}">
+        <input type="text" name="request_id" value="{{ $request_id }}">
         <input type="text" id="code" class="fadeIn second" name="code" placeholder="Escribe el codigo" required>
         <div style="width: 65%;margin: 0 auto;" class="g-recaptcha" data-sitekey="6Leeyl4pAAAAAJ7cAyMX9Z3UKGj8Z39k9Zv3t73p" required></div>
         <input type="submit" class="fadeIn fourth" value="Validar">
